@@ -63,3 +63,5 @@ While developing, make sure to hit "refresh" in the app's section if you make an
 ### TL;DR
 
 `mcp-use` = Rails for MCP. You write actual logic, boilerplate is handled. Few bugs, nothing blocking. _Use_ it.
+
+**Try it yourself:** `https://lively-poetry-gt8c1.mcp-use.run/mcp`

@@ -2,6 +2,8 @@
 
 An MCP server to search and explore 2322 Epstein emails.
 
+**Try it:** `https://lively-poetry-gt8c1.mcp-use.run/mcp`
+
 ## [Read the full writeup](./REVIEW.md)
 
 ## Run locally
