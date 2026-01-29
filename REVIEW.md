@@ -1,4 +1,4 @@
-## I built an MCP server to explore Epstein's emails. Here's what I learned about the protocol (and OpenAI's paywall)
+## I built an MCP server to explore Epstein's emails. Here's what I learned about the protocol (and `mcp-use`)
 
 When I wanted to test mcp-use (9k+ stars on GitHub), I needed a dataset spicy enough to keep me awake.
 Enter: 2322 Epstein emails.
@@ -51,10 +51,7 @@ Given the CSP issue I needed a "double deploy" to hardcode the production URL in
 ### Testing on ChatGPT
 
 When it came time to test, I happily headed to ChatGPT to add my server. It should be easy:
-
-```
-Account -> Settings -> Apps -> Advanced Settings -> Enable Dev Mode -> Apps -> Create App
-```
+Account -> Settings -> Apps -> Advanced Settings -> Enable Dev Mode -> Apps -> Create App.
 
 _However_, after adding the URL and everything, the app wasn't there. After way too much time I found out that the Free Plan doesn't allow you to add custom apps [[1](https://community.openai.com/t/chatgpt-apps-sdk-not-creating-a-custom-app-on-my-account/1369338/7), [2](https://help.openai.com/en/articles/11487775-apps-in-chatgpt)] (no warnings whatsoever). This might change in the future so before upgrading take a look.
 
